@@ -6,41 +6,40 @@
     * Analysis about this website: PCWord and VnExpress
     - They are the same, contain item:
 
-    # Website http://www.pcworld.com
-
+    # Website http://vnexpress.net/rss/tin-moi-nhat.rss
 <p align="center">
-  <img src="https://github.com/danisluis6/App-VnExpress/blob/version1/vnexpressversion1/1.png">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version2/vnexpressversion2/3.png">
 </p>
 
-    * INFORMATION: 
-      - String: title
-      - Timestamp: pubDate
-      - String: Author
-      - String: Creator
-      - String: Description
-
-    # Website http://vnexpress.net
+    * CUSTOMIZE URL TO GET RSS FROM WEBSITE
 
 <p align="center">
-  <img src="https://github.com/danisluis6/App-VnExpress/blob/version1/vnexpressversion1/2.png">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version2/vnexpressversion2/4.png">
 </p>
 
-    * INFORMATION:
-      - String: title
-      - String: description
-      - Timestamp: pubDate
-      - String: link
+    * SETTING VARIABLE TO GET DATA FROM RESS WEBSITE: 
 
-##STEP TWO
+    - Initialize variable in android
+<p align="center">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version2/vnexpressversion2/5.png">
+</p>
 
-    MainAcitivity.java 
-    - You write one or more fragment and call with "FragmentManager"
-    - With every fragment contain only link(pull data from website service)
- 
-    * NOTICE: When you use FragmentManager to manager fragment. Notice that you should using FrameLayout(Not
-    use LinearLayout or RelativeLayout)
+    - Definition variable in android
+<p align="center">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version2/vnexpressversion2/6.png">
+</p>
 
-##STEP THREE
+    - Definition variable in method to get data
+<p align="center">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version2/vnexpressversion2/7.png">
+</p>
+
+    * 
+
+
+
+
+
 
 
 

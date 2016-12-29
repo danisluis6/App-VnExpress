@@ -15,10 +15,11 @@ import java.util.List;
 public class PcWorldRssParser {
 
     private static final String TAG_TITLE = "title";
+    private static final String TAG_DESCRIPTION = "description";
+    private static final String TAG_DATE = "pubDate";
     private static final String TAG_LINK = "link";
     private static final String TAG_RSS = "rss";
 
-    // We don't use namespaces
     private final String ns = null;
 
     public List<RssItem> parse(InputStream inputStream) throws XmlPullParserException, IOException {
@@ -36,6 +37,8 @@ public class PcWorldRssParser {
     private List<RssItem> readFeed(XmlPullParser parser) throws XmlPullParserException, IOException {
         parser.require(XmlPullParser.START_TAG, null, TAG_RSS);
         String title = null;
+        String description = null;
+        String date = null;
         String link = null;
         List<RssItem> items = new ArrayList<RssItem>();
         while (parser.next() != XmlPullParser.END_DOCUMENT) {
@@ -45,11 +48,15 @@ public class PcWorldRssParser {
             String name = parser.getName();
             if (name.equals(TAG_TITLE)) {
                 title = readTitle(parser);
+            } else if(name.equals(TAG_DESCRIPTION)){
+                description = readDescription(parser);
+            } else if(name.equals(TAG_DATE)){
+                 date = readDate(parser);
             } else if (name.equals(TAG_LINK)) {
                 link = readLink(parser);
             }
             if (title != null && link != null) {
-                RssItem item = new RssItem(title, link);
+                RssItem item = new RssItem(title, description,date,link);
                 items.add(item);
                 title = null;
                 link = null;
@@ -70,6 +77,20 @@ public class PcWorldRssParser {
         String title = readText(parser);
         parser.require(XmlPullParser.END_TAG, ns, TAG_TITLE);
         return title;
+    }
+
+    private String readDescription(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, TAG_DESCRIPTION);
+        String description = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, TAG_DESCRIPTION);
+        return description;
+    }
+
+    private String readDate(XmlPullParser parser) throws XmlPullParserException, IOException {
+        parser.require(XmlPullParser.START_TAG, ns, TAG_DATE);
+        String date = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, TAG_DATE);
+        return date;
     }
 
     private String readText(XmlPullParser parser) throws IOException, XmlPullParserException {
