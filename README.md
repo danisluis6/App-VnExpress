@@ -5,13 +5,16 @@
     - They are the same, contain item:
 
     # Website http://www.pcworld.com
+
 <p align="center">
-  <img src="https://github.com/danisluis6/Technical-Android-AsyncTask/blob/version1/LevelA/1.png">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version1/vnexpressversion1/1.png">
 </p>
+
+    * INFORMATION: 
 
     # Website http://vnexpress.net
 
 <p align="center">
-  <img src="https://github.com/danisluis6/Technical-Android-AsyncTask/blob/version1/LevelA/1.png">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version1/vnexpressversion1/2.png">
 </p>
 
