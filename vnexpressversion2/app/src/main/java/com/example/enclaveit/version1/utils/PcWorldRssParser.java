@@ -1,5 +1,6 @@
 package com.example.enclaveit.version1.utils;
 
+import android.util.Log;
 import android.util.Xml;
 
 import com.example.enclaveit.version1.model.bean.RssItem;
@@ -57,8 +58,19 @@ public class PcWorldRssParser {
             }
             if (title != null && link != null) {
                 RssItem item = new RssItem(title, description,date,link);
+                /**
+                 * @author: Lorence
+                 * Check data from website
+                 */
+                Log.d("RSS 1",item.getTitle().toString());
+                Log.d("RSS 2",String.valueOf(item.getDescription()));
+                Log.d("RSS 3",String.valueOf(item.getDate()));
+                Log.d("RSS 4",item.getLink().toString());
                 items.add(item);
+
                 title = null;
+                description = null;
+                date = null;
                 link = null;
             }
         }

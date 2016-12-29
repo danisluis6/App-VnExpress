@@ -21,12 +21,12 @@
         <TextView
             android:id="@+id/title"
             android:text="Một loạt cảnh sát khu vực ở TP HCM giấu án"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/description"
-            android:text="Bí thư Quận ủy Tân Phú Nguyễn Thành Chung nhìn nhận có tình trạng cảnh sát khu vực giấu án, quận đã kỷ luật 7 người và đang xem xét xử lý lãnh đạo công an phường."
-            android:layout_width="wrap_content"
+            android:text="Bí thư Quận ủy Tân Phú Nguyễn Thành Chung nhìn nhận có tình trạng"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>
