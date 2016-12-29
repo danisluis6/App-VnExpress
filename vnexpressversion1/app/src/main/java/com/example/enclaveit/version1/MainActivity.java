@@ -31,4 +31,11 @@ public class MainActivity extends AppCompatActivity {
         transaction.add(R.id.fragment_container, homeRssFragment);
         transaction.commit();
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putBoolean("fragment_added", true);
+    }
 }
+// You need read more at here: https://androidresearch.wordpress.com/2013/06/01/creating-a-simple-rss-application-in-android-v2/

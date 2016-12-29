@@ -33,4 +33,17 @@
 
 ##STEP TWO
 
+    MainAcitivity.java 
+    - You write one or more fragment and call with "FragmentManager"
+    - With every fragment contain only link(pull data from website service)
+ 
+    * NOTICE: When you use FragmentManager to manager fragment. Notice that you should using FrameLayout(Not
+    use LinearLayout or RelativeLayout)
+
+##STEP THREE
+
+
+
+    
+
 
