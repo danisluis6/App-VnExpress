@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_fb0b47647d5c4206157ede713e71184ac0759508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_23046d96cf9b9b5ce25a4aa4f194143cab64d5af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.0.1_37156a2040065aab30a40950ccd6d99722896639.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_112417f425e31eec0aee69d42d34952d308da7e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_23046d96cf9b9b5ce25a4aa4f194143cab64d5af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_dc4d5bbeeaa317201351e6f66a1b08a22041f913.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.0.1_9e3af5692946bc08a76d53c34d4c9839c48317fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_9e3af5692946bc08a76d53c34d4c9839c48317fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.0.1_04c3aae83543e0b79a45713dabe4f0b28e10f468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.0.1_c9e5bfa90440ca98fb477781a93466fa263e8484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.0.1_fb0b47647d5c4206157ede713e71184ac0759508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_dc4d5bbeeaa317201351e6f66a1b08a22041f913.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_c9e5bfa90440ca98fb477781a93466fa263e8484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_d72a6929028e36f832cfbe0da5287f94550420be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_6ff76003b2b3156859dfcb5fc14ca1dfbb481c6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_d72a6929028e36f832cfbe0da5287f94550420be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.0.1_de5ef906e50ef45df986ec00c2f108c50b4c0eef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.0.1_4920180644061947a650ebfceb4ed2ccb64bfc0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_13913426eb1b15d6623424d0951c94b595d816cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6ff76003b2b3156859dfcb5fc14ca1dfbb481c6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_13913426eb1b15d6623424d0951c94b595d816cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_04c3aae83543e0b79a45713dabe4f0b28e10f468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca121990ea80423de0a6371c5dff7611b28b6b6c">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_7ce0b860159336495646bec5f818057cb65010d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_4920180644061947a650ebfceb4ed2ccb64bfc0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c22fc91da046f7ee9fe400ad9d5af621167a80a5">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/instant-run_6d6202be02e7a9fff24f8a6b4f5584aca579b4c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_37156a2040065aab30a40950ccd6d99722896639.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_de5ef906e50ef45df986ec00c2f108c50b4c0eef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.0.1_112417f425e31eec0aee69d42d34952d308da7e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_0ad2dc83491c37a2db265710c065e1f69a6fd2cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.0.1_a6348e273b9d7b0ac53da80f0c756b211200adc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_a6348e273b9d7b0ac53da80f0c756b211200adc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/enclaveit/Desktop/App-VnExpress/vnexpressversion5/app/build/intermediates/pre-dexed/release/support-annotations-25.0.1_0ad2dc83491c37a2db265710c065e1f69a6fd2cf.jar" />
+    </item>
+
+</items>
