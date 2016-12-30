@@ -1,4 +1,4 @@
-package com.example.enclaveit.version1.model.bean;
+package com.example.enclaveit.version2.model.bean;
 
 /**
  * A representation of an rss item from the list.
@@ -12,12 +12,16 @@ public class RssItem {
 	private final String description;
 	private final String date;
 	private final String link;
+	private final String urlPicture;
+	private final String urlAddress;
 
-	public RssItem(String title, String description, String date, String link) {
+	public RssItem(String title, String description, String date, String link, String urlPicture, String urlAddress) {
 		this.title = title;
 		this.description = description;
 		this.date = date;
 		this.link = link;
+		this.urlPicture = urlPicture;
+		this.urlAddress = urlAddress;
 	}
 
 	public String getTitle() {
@@ -34,5 +38,13 @@ public class RssItem {
 
 	public String getLink() {
 		return link;
+	}
+
+	public String getUrlPicture() {
+		return urlPicture;
+	}
+
+	public String getUrlAddress() {
+		return urlAddress;
 	}
 }

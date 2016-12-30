@@ -1,9 +1,9 @@
-package com.example.enclaveit.version1.utils;
+package com.example.enclaveit.version2.utils;
 
 import android.util.Log;
 import android.util.Xml;
 
-import com.example.enclaveit.version1.model.bean.RssItem;
+import com.example.enclaveit.version2.model.bean.RssItem;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -56,18 +56,20 @@ public class PcWorldRssParser {
             } else if (name.equals(TAG_LINK)) {
                 link = readLink(parser);
             }
-            if (title != null && link != null) {
-                RssItem item = new RssItem(title, description,date,link);
+            if (title != null && link != null && description != null) {
                 /**
                  * @author: Lorence
                  * Check data from website
                  */
-                Log.d("RSS 1",item.getTitle().toString());
-                Log.d("RSS 2",String.valueOf(item.getDescription()));
-                Log.d("RSS 3",String.valueOf(item.getDate()));
-                Log.d("RSS 4",item.getLink().toString());
-                items.add(item);
-
+                // Log.d("RSS 1",String.valueOf(item.getDescription()));
+                Log.d("RSS Image Link",StringUtils.getImageURL(String.valueOf(description)));
+                Log.d("RSS URL Link",StringUtils.getURL(String.valueOf(description)));
+                Log.d("RSS Description",StringUtils.getDescriptionNew(String.valueOf(description)));
+                RssItem item = new RssItem(title, StringUtils.getDescriptionNew(String.valueOf(description)),date,link,StringUtils.getImageURL(String.valueOf(description)),StringUtils.getURL(String.valueOf(description)));
+                if(!("Tin nhanh VnExpress - Đọc báo, tin tức online 24h".equals(title))){
+                    items.add(item);
+                }
+                // Reset Data and continue to get from website
                 title = null;
                 description = null;
                 date = null;

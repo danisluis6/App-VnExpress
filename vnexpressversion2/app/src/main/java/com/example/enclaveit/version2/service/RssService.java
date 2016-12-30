@@ -1,13 +1,13 @@
-package com.example.enclaveit.version1.service;
+package com.example.enclaveit.version2.service;
 
 import android.app.IntentService;
 import android.content.Intent;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import com.example.enclaveit.version1.model.bean.RssItem;
-import com.example.enclaveit.version1.utils.Constants;
-import com.example.enclaveit.version1.utils.PcWorldRssParser;
+import com.example.enclaveit.version2.model.bean.RssItem;
+import com.example.enclaveit.version2.utils.Constants;
+import com.example.enclaveit.version2.utils.PcWorldRssParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -19,7 +19,7 @@ import java.util.List;
 
 public class RssService extends IntentService {
 
-    private static final String RSS_LINK = "http://vnexpress.net/rss/tin-moi-nhat.rss";
+    private static final String RSS_LINK = "http://vnexpress.net/rss/khoa-hoc.rss";
     public static final String ITEMS = "items";
     public static final String ACTION_RSS_PARSED = "com.simplerssreader.ACTION_RSS_PARSED";
 

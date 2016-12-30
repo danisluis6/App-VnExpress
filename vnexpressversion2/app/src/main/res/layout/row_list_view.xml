@@ -8,6 +8,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent">
               <ImageView
+                  android:id="@+id/image"
                   android:src="@drawable/news"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent" />
@@ -20,11 +21,14 @@
         android:layout_height="match_parent">
         <TextView
             android:id="@+id/title"
+            android:maxLength="50"
             android:text="Một loạt cảnh sát khu vực ở TP HCM giấu án"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/description"
+            android:maxLength="160"
+            android:lines="2"
             android:text="Bí thư Quận ủy Tân Phú Nguyễn Thành Chung nhìn nhận có tình trạng"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

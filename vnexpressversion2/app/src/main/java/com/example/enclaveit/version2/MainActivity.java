@@ -1,12 +1,12 @@
-package com.example.enclaveit.version1;
+package com.example.enclaveit.version2;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.enclaveit.version1.fragment.HomeRssFragment;
-import com.example.enclaveit.version1.fragment.NewsRssFragment;
+import com.example.enclaveit.version2.fragment.HomeRssFragment;
+import com.example.enclaveit.version2.fragment.NewsRssFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,4 +38,3 @@ public class MainActivity extends AppCompatActivity {
         outState.putBoolean("fragment_added", true);
     }
 }
-// You need read more at here: https://androidresearch.wordpress.com/2013/06/01/creating-a-simple-rss-application-in-android-v2/

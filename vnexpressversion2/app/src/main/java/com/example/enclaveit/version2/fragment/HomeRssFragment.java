@@ -1,4 +1,4 @@
-package com.example.enclaveit.version1.fragment;
+package com.example.enclaveit.version2.fragment;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -16,10 +16,10 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.enclaveit.version1.R;
-import com.example.enclaveit.version1.adapter.RssAdapter;
-import com.example.enclaveit.version1.model.bean.RssItem;
-import com.example.enclaveit.version1.service.RssService;
+import com.example.enclaveit.version2.R;
+import com.example.enclaveit.version2.adapter.RssAdapter;
+import com.example.enclaveit.version2.model.bean.RssItem;
+import com.example.enclaveit.version2.service.RssService;
 
 import java.util.List;
 

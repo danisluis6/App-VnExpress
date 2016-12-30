@@ -1,4 +1,4 @@
-package com.example.enclaveit.version1;
+package com.example.enclaveit.version2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
