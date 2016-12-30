@@ -6,6 +6,7 @@
     <LinearLayout
         android:layout_weight="0.25"
         android:layout_width="0dp"
+        android:padding="2dp"
         android:layout_height="match_parent">
               <ImageView
                   android:id="@+id/image"
@@ -18,18 +19,24 @@
         android:gravity="center"
         android:layout_weight="1"
         android:layout_width="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
         android:layout_height="match_parent">
         <TextView
             android:id="@+id/title"
             android:maxLength="50"
+            android:textColor="#000000"
+            android:textSize="13dp"
             android:text="Một loạt cảnh sát khu vực ở TP HCM giấu án"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/description"
-            android:maxLength="160"
+            android:maxLength="200"
             android:lines="2"
             android:text="Bí thư Quận ủy Tân Phú Nguyễn Thành Chung nhìn nhận có tình trạng"
+            android:textColor="#000000"
+            android:textSize="11dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>

@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.example.enclaveit.version3.R;
 import com.example.enclaveit.version3.model.bean.RssItem;
+import com.example.enclaveit.version3.utils.CustomFonts;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -50,7 +51,9 @@ public class RssAdapter extends BaseAdapter{
 			convertView = View.inflate(context, R.layout.row_list_view, null);
 			holder = new ViewHolder();
 			holder.itemTitle = (TextView) convertView.findViewById(R.id.title);
+			holder.itemTitle.setTypeface(new CustomFonts(context).setFont("Roboto-Medium"));
 			holder.itemDescription = (TextView) convertView.findViewById(R.id.description);
+			holder.itemDescription.setTypeface(new CustomFonts(context).setFont("Roboto-Light"));
 			holder.itemPic = (ImageView) convertView.findViewById(R.id.image);
 			convertView.setTag(holder);
 		} else {
