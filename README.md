@@ -6,7 +6,7 @@
     * Analysis about this website: PCWord and VnExpress
     * PICTURE APP ANDORID STUDIO
 <p align="center">
-  <img src="https://github.com/danisluis6/App-VnExpress/blob/version3/vnexpressversion3/1.png">
+  <img src="https://github.com/danisluis6/App-VnExpress/blob/version4/vnexpressversion4/1.png">
 </p>
 
 
